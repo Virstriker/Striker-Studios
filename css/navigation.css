@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    margin: 30px 20px;
+    transition: all;
+    transition-duration: 0.5s;
+    letter-spacing: 1.5px;
+}
+.navigation a:hover{
+    color: red;
+    text-shadow: 0px 0px 10px black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    text-align: center;
+    margin-top: 60px;   
+    font-size: 100px;
+    font-weight: 700;
+}
