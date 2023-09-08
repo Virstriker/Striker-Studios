@@ -74,13 +74,8 @@
         font-size: 40px;
     }
   }
-@media screen and (max-width: 600px) {
-    .home-container p{
-        font-size: 20px;
-    }
-  }
-.home-container p:nth-child(2){
-    font-family: 'Teko', sans-serif;
+  .home-container p:nth-child(2){
+      font-family: 'Teko', sans-serif;
     letter-spacing: 4px;
 }
 .btn{
@@ -96,4 +91,9 @@
 .btn:hover{
     color: black;
     background-color: white;
+}
+@media screen and (max-width: 600px) {
+    .home-container p{
+        font-size: 30px;
+    }
 }
