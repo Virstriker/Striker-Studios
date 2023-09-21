@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="../css/navigation.css">
 </head>
 <body>
-    <p id="logo">STRIKER STUDIOS</p>
     <nav>
-        <div class="navigation">
+        <p id="logo">STRIKER STUDIOS</p>
+        <p onclick="clk()" id="menu">Menu</p>
+        <div id="navigation">
+            <a href="../index.html">HOME</a>
+            <a href="./Photo Gallery.html">PHOTO GALLIERY</a>
+            <a href="./Videos.html">VIDEOS</a>
+            <a href="./AboutUs.html">ABOUT US</a>
+            <a href="./ContactUs.html">CONTACT US</a>
+        </div>
+        <div id="renav" style="display: none;">
             <a href="../index.html">HOME</a>
             <a href="./Photo Gallery.html">PHOTO GALLIERY</a>
             <a href="./Videos.html">VIDEOS</a>
@@ -19,6 +27,35 @@
         </div>
     </nav>
     <!-- Navigation -->
-    Gallery
+    <div class="Photos">
+        <div class="slot">
+            <a href="./PreWedding.html" class="Prewedding pre">
+                <p>PreWedding</p>
+            </a>
+            <div class="Wedding pre">
+                <p>Wedding</p>
+            </div>
+            <div class="Birthday pre">
+                <p>Birthday</p>
+            </div>
+        </div>
+        <div class="slot">
+            <div class="Modeling pre">
+                <p>Modeling</p>
+            </div>
+            <div class="Traveling pre">
+                <p>Traveling</p>
+            </div>
+            <a href="./BabyShower.html" class="Babyshower pre">
+                <p>BabyShower</p>
+            </a>
+        </div>
+        <div class="slot">
+            <div class="Ecommerce pre">
+                <p>Ecommerce</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/navigation.js"></script>
 </body>
 </html>
