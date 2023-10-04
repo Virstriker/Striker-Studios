@@ -1,3 +1,4 @@
+
 $('.row1').owlCarousel({
     rtl:false,
     loop:true,
@@ -17,7 +18,9 @@ $('.row1').owlCarousel({
             items:5
         }
     }
+
 })
+
 $('.row2').owlCarousel({
     rtl:true,
     loop:true,
