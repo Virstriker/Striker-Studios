@@ -63,5 +63,7 @@
         margin: 20px 5%;
         height: 25vh;
         font-size: 30px;
+        filter: grayscale(0%);
     }
+
 }
