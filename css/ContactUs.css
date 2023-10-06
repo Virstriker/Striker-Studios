@@ -90,5 +90,43 @@
     border: 1.5px solid black;
     box-shadow: inset 1px 1px 5px black;
   }
-  
-  
+a img{
+    width: 10%;
+    margin-right: 5%;
+}
+@media screen and (max-width: 600px) {
+    .image{
+        display: none;
+    }
+    .down{
+        flex-direction: column;
+    }
+    .up{
+        width: 100%;
+        height: 10%;
+    }
+    .up p{
+        margin-top: 5%;
+        font-size: x-large;
+    }
+    .con{
+        margin-left: 0px;
+    }
+
+    .main-contact{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right p{
+        text-align: center;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
